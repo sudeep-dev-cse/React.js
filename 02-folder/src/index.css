@@ -1,0 +1,28 @@
+
+*{
+  margin: 0;
+ padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.card{
+  background: rgb(194, 58, 58);
+  border-radius: 10px;
+  margin:2px;
+  padding: 20px;
+  flex-wrap: nowrap;
+  
+}
+.nav{
+  background: rgb(58, 194, 58);
+  border-radius: 10px;
+  margin:2px;
+  padding: 20px;
+}
