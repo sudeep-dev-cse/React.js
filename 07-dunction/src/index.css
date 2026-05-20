@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+ padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+ 
+}
+
+html,
+body{
+ height: 100%;
+  width: 100% ;
+}
+.page1{
+  height: 100vh;
+  width: 100%;
+  background-color: aquamarine;
+}
+.page2{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(94, 104, 101);
+}
+.page3{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(7, 59, 42);
+}
