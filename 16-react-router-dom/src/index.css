@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+html,
+body,
+#root{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  background-color: #0f172a;
+  color: #fff;
+}
+
+/* ================= MAIN NAVBAR ================= */
+
+.nav{
+  width: 100%;
+  height: 75px;
+  background-color: #111827;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 60px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  border-bottom: 1px solid #1e293b;
+
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* Navbar Heading */
+
+.nav h1{
+  font-size: 32px;
+  color: #38bdf8;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/* ================= NAV LINKS ================= */
+
+.nav-links{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+/* Links */
+
+.nav a{
+  text-decoration: none;
+  color: #e2e8f0;
+
+  font-size: 17px;
+  font-weight: 500;
+
+  padding: 10px 18px;
+
+  border-radius: 10px;
+
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+
+.nav a:hover{
+  background-color: #38bdf8;
+  color: #0f172a;
+
+  transform: translateY(-2px);
+}
+
+/* ================= PAGE SECTION ================= */
+
+.page{
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 75px;
+}
+
+/* Page Heading */
+
+.page h1{
+  font-size: 100px;
+  color: #38bdf8;
+
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  text-shadow: 0 0 20px rgba(56,189,248,0.4);
+}
